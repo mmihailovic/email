@@ -1,0 +1,17 @@
+.text-field {
+	-fx-background-color:gray;
+	-fx-background-radius: 5;
+}
+.button, .toggle-button {
+	-fx-background-color: linear-gradient(to bottom, #1dbbdd44, #93f9b944);
+}
+.button:hover, .toggle-button:hover {
+	-fx-background-color:gray;
+}
+.text-area {
+    text-area-background: gray ;
+}
+
+.text-area .content {
+    -fx-background-color: text-area-background ;
+}
